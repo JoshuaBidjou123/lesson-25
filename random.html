@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Random Numbers
+        </title>
+    </head>
+    <body>
+        <h2>Random Numbers:</h2>
+        <div id="output">
+
+        </div>
+        <script>
+            let count= 5;
+            let i= 0;
+            let outputDiv= document.getElementById("output");
+            while (i < count) {
+                let randomNumber= Math.random();
+                outputDiv.innerHTML += randomNumber + "<br>";
+                i++;
+                
+            }
+        </script>
+    </body>
+</html>
